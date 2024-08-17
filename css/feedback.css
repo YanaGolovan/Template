@@ -1,0 +1,160 @@
+.feedback__content {
+    background-image: url(/image/feedback-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+}
+
+.feedback__content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(47, 50, 75, 0.85);
+}
+
+.feedback__container {
+    z-index: 1;
+}
+
+.feedback__title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.feedback__text {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+}
+
+.feedback__form-box {
+text-align: center;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 0;
+    padding: 0;
+}
+
+.feedback__input {
+border-radius: 50px;
+border: 1.38px solid #fff;
+padding: 9px 26px 9px 26px;
+font-size: 22px;
+font-weight: 400;
+line-height: normal;
+width: 425px;
+height: 48px;
+margin-bottom: 21px;
+background-color: transparent;
+}
+
+.feedback__input:last-child {
+    margin-bottom: 0;
+}
+
+.feedback__btn {
+    background: var(--color-btn-bg);
+    border-radius: 50px;
+    padding: 11px 38px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500px;
+    text-decoration: none;
+    box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.feedback__agreemant {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.feedback__agreemant-link {
+    color: var(--color-blue-link);
+}
+
+@media (max-width: 1024px) {
+    .feedback__title {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    
+    .feedback__text {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .feedback__input {
+        padding: 8px 23px 8px 23px;
+        font-size: 20px;
+        line-height: normal;
+        width: 379px;
+        height: 39px;
+        margin-bottom: 20px;
+        }
+
+    .feedback__agreemant {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .feedback__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .feedback__text {
+        font-size: 12px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .feedback__input {
+        padding: 6px 18px 6px 18px;
+        font-size: 14px;
+        line-height: normal;    
+        margin-bottom: 15px;
+        max-width: 290px;
+        }
+
+    .feedback__agreemant {
+        font-size: 11px;
+    }
+
+    .feedback__form {
+        margin-bottom: 45px;
+    }
+
+    .feedback__btn {
+        padding: 10px 26px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .feedback__content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
