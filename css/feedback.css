@@ -54,7 +54,7 @@ text-align: center;
 
 .feedback__input {
 border-radius: 50px;
-border: 1.38px solid #fff;
+border: 1.38px solid var(--color-white);
 padding: 9px 26px 9px 26px;
 font-size: 22px;
 font-weight: 400;
@@ -63,6 +63,8 @@ width: 425px;
 height: 48px;
 margin-bottom: 21px;
 background-color: transparent;
+color: var(--color-white);
+caret-color: var(--color-white);
 }
 
 .feedback__input:last-child {
