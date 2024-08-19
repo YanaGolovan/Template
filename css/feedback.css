@@ -1,4 +1,4 @@
-.feedback__content {
+.feedback {
     background-image: url(../image/feedback-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@
     display: flex;
 }
 
-.feedback__content::before {
+.feedback::before {
     content: "";
     position: absolute;
     top: 0;
@@ -120,7 +120,7 @@ caret-color: var(--color-white);
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media (max-width: 600px) {
     .feedback__title {
         font-size: 20px;
         margin-bottom: 10px;
@@ -154,7 +154,7 @@ caret-color: var(--color-white);
         margin-bottom: 30px;
     }
 
-    .feedback__content {
+    .feedback {
         padding-top: 30px;
         padding-bottom: 30px;
     }
