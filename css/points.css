@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 56px;
 }
 
 .points__title {
@@ -17,6 +17,7 @@
     text-align: center;
     color: var(--color-dark-txt);
     margin-bottom: 25px;
+    line-height: 119%;
 }
 
 .points__subtitle {
@@ -26,6 +27,7 @@
     color: var(--color-dark-txt);
     margin-bottom: 35px;
     position: relative;
+    line-height: 119%;
 }
 
 .points__subtitle::before {
@@ -34,8 +36,8 @@
     height: 2px;
     background-color: var(--color-dark-txt);
     position: absolute;
-    top: 12px;
-    left: -66px;
+    top: 11px;
+    left: -68px;
 }
 
 .points__subtitle::after {
@@ -44,14 +46,14 @@
     height: 2px;
     background-color: var(--color-dark-txt);
     position: absolute;
-    top: 12px;
-    left: 83px;
+    top: 11px;
+    left: 79px;
 }
 
 .points__description {
     font-weight: 400;
     font-size: 18px;
-    line-height: 141%;
+    line-height: 140.6%;
     text-align: center;
     color: var(--color-dark-txt); 
     max-width: 724px;
@@ -60,10 +62,11 @@
 .points__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     counter-reset: myCounter;
     padding-left: 0;
     margin: 0;
+    gap: 50px;
 }
 
 .points__item {
@@ -90,7 +93,7 @@
     text-align: center;
     font-size: 57px;
     font-weight: 500;
-    line-height: 115px;
+    line-height: 130px;
     width: 122px;
     height: 122px;
     margin-bottom: 16px;

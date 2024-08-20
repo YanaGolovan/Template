@@ -1,7 +1,7 @@
 .banner {
     background-image: url(../image/home-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     position: relative;
     padding-top: 228px;
@@ -33,7 +33,7 @@
     font-size: 52px;
     margin-bottom: 35px;
     opacity: 86%;
-    line-height: 120%;
+    line-height: 118%;
     color: var(--color-white);
 }
 
@@ -42,9 +42,9 @@
     max-width: 960px;
     font-weight: 400;
     font-size: 22px;
-    line-height: 141%;
+    line-height: 140.6%;
     opacity: 75%;
-    margin-bottom: 90px;
+    margin-bottom: 87px;
     color: var(--color-white);
 }
 

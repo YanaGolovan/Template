@@ -16,11 +16,11 @@
 
 .contact__phone {
     display: block;
-    font-size: 23px;
+    font-size: 23.85px;
     font-weight: 400;
     text-decoration: none;
     color: var(--color-white);
-    margin-bottom: 3px;
+    margin-bottom: 7px;
 }
 
 .contact__link {
