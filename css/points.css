@@ -110,20 +110,44 @@
         margin-bottom: 33px;
     }
 
+    .points__subtitle::before { 
+        width: 40px;  
+        top: 10px;
+        left: -63px;
+    }
+    
+    .points__subtitle::after {
+        width: 40px;
+        top: 10px;
+        left: 73px;
+    }
+
     .points__description {
         font-size: 16px;
         max-width: 666px;
+    }
+
+    .points__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        counter-reset: myCounter;
+        padding-left: 0;
+        margin: 0;
+        gap: 50px;
     }
 
     .points__item::before {
         width: 104px;
         height: 104px;
         font-size: 52px;
-        line-height: 100px;
+        line-height: 201%;
+        margin-bottom: 26px;
     }
 
     .points__item {
         font-size: 18px;
+        max-width: 180px;
     }
 }
 

@@ -1,7 +1,7 @@
 .feedback {
     background-image: url(../image/feedback-bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     position: relative;
     padding-top: 70px;
@@ -120,6 +120,10 @@ caret-color: var(--color-white);
 
     .feedback__agreemant {
         font-size: 17px;
+    }
+
+    .feedback__btn {
+        margin-bottom: 30px;
     }
 }
 
