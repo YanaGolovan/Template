@@ -70,9 +70,16 @@
         padding-top: 15px;
     }
 
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+    }
+
     .contact__phone {
-        position: fixed;
-        transform: scale(0);
+        font-size: 0;
+        color: transparent;
     }
     
     .contact__link {
