@@ -80,6 +80,7 @@
     .contact__phone {
         font-size: 0;
         color: transparent;
+        margin-bottom: 0;
     }
     
     .contact__link {
