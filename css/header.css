@@ -56,6 +56,7 @@
     
     .contact__link {
         font-size: 13px;
+        line-height: 141%;
     }
 
     .logo {
@@ -81,10 +82,21 @@
         position: relative;
     }
 
-    .contact__phone {
+    /* .contact__phone {
         font-size: 0;
         color: transparent;
         margin-bottom: 0;
+    } */
+    .contact__phone {
+        display: flex;
+        margin-bottom: 0;
+    }
+
+
+    .contact__phone-hidden {
+        font-size: 0;
+        color: transparent;
+        margin-bottom: 0;    
     }
     
     .contact__link {

@@ -110,12 +110,12 @@ caret-color: var(--color-white);
     }
 
     .feedback__input {
-        padding: 8px 23px 8px 23px;
+        padding: 6px 23px 6px 23px;
         font-size: 20px;
         line-height: normal;
-        width: 379px;
-        height: 39px;
+        width: 377px;
         margin-bottom: 20px;
+        border: 2px solid;
         }
 
     .feedback__agreemant {
@@ -125,25 +125,28 @@ caret-color: var(--color-white);
     .feedback__btn {
         margin-bottom: 30px;
     }
+
+    .feedback {
+        padding-bottom: 56px;
+    }
 }
 
 @media (max-width: 600px) {
     .feedback__title {
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 14px;
     }
     
     .feedback__text {
         font-size: 12px;
-        margin-bottom: 35px;
+        margin-bottom: 33px;
         text-align: center;
     }
 
     .feedback__input {
         padding: 6px 18px 6px 18px;
         font-size: 14px;
-        line-height: normal;    
-        margin-bottom: 15px;
+        margin-bottom: 13px;
         max-width: 290px;
         }
 
@@ -158,6 +161,9 @@ caret-color: var(--color-white);
     .feedback__btn {
         padding: 10px 26px;
         font-size: 16px;
+        line-height: 110%;
+        text-align: center;
+        width: 174px;
         margin-bottom: 30px;
     }
 

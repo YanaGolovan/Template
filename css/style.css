@@ -68,7 +68,7 @@ body {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media (max-width: 600px) {
     .container {
         min-width: 290px;
         padding: 0 15px;

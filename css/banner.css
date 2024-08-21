@@ -57,6 +57,7 @@
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {  
@@ -91,14 +92,22 @@
         
     .banner__description {
         font-size: 14px;
-        margin-bottom: 54px;
+        margin-bottom: 57px;
         line-height: 140%;
     }   
 
     .banner__btn {
-        padding: 9px 48px;
+        width: 160px;
+        padding: 9px 29px;
         color: var(--color-white);
         font-size: 16px;
+        line-height: 20px;
+    }
+
+    .text-hidden {
+        white-space: pre-line;
+        height: 76px;
+        overflow: hidden;
     }
 }
 

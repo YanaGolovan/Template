@@ -74,8 +74,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 196px;
+    /* flex-basis: 196px; */
     text-align: center;
+    max-width: 196px;
     font-weight: 500;
     font-size: 20px;
     line-height: 141%;
@@ -108,6 +109,7 @@
     .points__subtitle {
         font-size: 20px;
         margin-bottom: 33px;
+        line-height: 115%;
     }
 
     .points__subtitle::before { 
@@ -155,11 +157,12 @@
     .points__title {
         font-size: 20px;
         margin-bottom: 15px;
+        line-height: 125%;
     }
     
     .points__subtitle {
         font-size: 16px;
-        margin-bottom: 26px;
+        margin-bottom: 30px;
     }
 
     .points__description {
@@ -172,12 +175,12 @@
         height: 104px;
         font-size: 52px;
         line-height: 100px;
-        margin-bottom: 26px;
+        margin-bottom: 27px;
     }
 
     .points__item {
         font-size: 18px;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
         max-width: 166px;
     }
 
@@ -186,9 +189,11 @@
     }
 
     .points__list {
+        display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
+        gap: 40px;
     }
 
     .points__text-wrapper {
@@ -196,23 +201,17 @@
     }
 
     .points__subtitle::before {
-        content: "";
-        width: 19.71px;
+        width: 19px;
         height: 1px;
-        background-color: var(--color-dark-txt);
-        position: absolute;
         top: 11px;
-        left: -43px;
+        left: -46px;
     }
     
     .points__subtitle::after {
-        content: "";
-        width: 19.71px;
+        width: 19px;
         height: 1px;
-        background-color: var(--color-dark-txt);
-        position: absolute;
         top: 11px;
-        left: 63px;
+        left: 69px;
     }
 
     .points {
