@@ -44,6 +44,16 @@
         padding-top: 37px;
         padding-bottom: 49px;
     }
+
+    .footer__copy-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 141%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        padding-right: 23px;
+    }
 }
 
 @media (max-width: 680px) {  

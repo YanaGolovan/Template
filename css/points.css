@@ -101,6 +101,10 @@
 }
 
 @media (max-width: 1024px) {
+
+    .points__text-wrapper {
+        margin-bottom: 58px;
+    }
     .points__title {
         font-size: 32px;
         margin-bottom: 23px;
@@ -114,14 +118,14 @@
 
     .points__subtitle::before { 
         width: 40px;  
-        top: 10px;
-        left: -63px;
+        top: 12px;
+        left: -62px;
     }
     
     .points__subtitle::after {
         width: 40px;
-        top: 10px;
-        left: 73px;
+        top: 12px;
+        left: 72px;
     }
 
     .points__description {
@@ -150,6 +154,9 @@
     .points__item {
         font-size: 18px;
         max-width: 180px;
+    }
+    .points {
+        padding-bottom: 72px;
     }
 }
 
