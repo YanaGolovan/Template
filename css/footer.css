@@ -82,11 +82,12 @@
         align-items: center;
         justify-content: center;
         flex-basis: 400px;
+        padding-right: 0;
     }
 
     .footer {
         background: linear-gradient(to top, #2A2C3F 37%, #2F324B 37%);
-        padding-top: 22px;
+        padding-top: 25px;
         padding-bottom: 15px;
     }
 }

@@ -33,8 +33,7 @@
 }
 
 .contact__phone-mobile {
-    position: fixed;
-    transform: scale(0);
+    display: none;
 }
 
 .contact {
@@ -100,13 +99,11 @@
     }
     
     .contact__link {
-        position: fixed;
-        transform: scale(0);
+        display: none;
     }
 
     .contact__phone-mobile {
-        position: static;
-        transform: scale(1);
+        display: block;
         }
     }
 

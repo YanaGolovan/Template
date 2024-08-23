@@ -116,13 +116,13 @@
     
     .banner__title {
         font-size: 20px;
-        margin-bottom: 23px;
+        margin-bottom: 24px;
     }
         
     .banner__description {
         font-size: 14px;
         margin-bottom: 57px;
-        line-height: 140%;
+        line-height: 140.6%;
     }   
 
     .banner__btn {

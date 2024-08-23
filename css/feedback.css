@@ -154,16 +154,18 @@ caret-color: var(--color-white);
     .feedback__title {
         font-size: 20px;
         margin-bottom: 14px;
+        padding-right: 0px;
     }
     
     .feedback__text {
         font-size: 12px;
         margin-bottom: 33px;
         text-align: center;
+        padding-left: 0;
     }
 
     .feedback__input {
-        padding: 6px 18px 6px 18px;
+        padding: 5px 18px 5px 18px;
         font-size: 14px;
         margin-bottom: 13px;
         max-width: 290px;
@@ -174,7 +176,7 @@ caret-color: var(--color-white);
     }
 
     .feedback__form {
-        margin-bottom: 45px;
+        margin-bottom: 44px;
     }
 
     .feedback__btn {
