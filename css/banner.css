@@ -86,10 +86,6 @@
     .banner__image-wrapper {
         max-width: 1024px;
     }
-
-    .banner__image {
-        object-fit: fill;
-    }
     
     .banner__title {
         font-size: 40px;
@@ -137,6 +133,10 @@
         white-space: pre-line;
         height: 76px;
         overflow: hidden;
+    }
+
+    .banner__image {
+
     }
 }
 
