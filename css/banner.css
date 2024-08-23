@@ -136,6 +136,8 @@
     }
 
     .banner__image {
+        object-position: left;
+        left: 0;
 
     }
 }
